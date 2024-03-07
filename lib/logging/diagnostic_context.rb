@@ -422,7 +422,7 @@ Logging::INHERIT_CONTEXT =
     when false, nil; false
     else true end
   else
-    true
+    false
   end
 
 if Logging::INHERIT_CONTEXT
